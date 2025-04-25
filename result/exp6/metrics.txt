@@ -1,0 +1,11 @@
+tv,0.9129
+chair,0.8588
+chair,0.7511
+chair,0.6847
+oven,0.6709
+couch,0.5984
+chair,0.4970
+potted plant,0.3404
+couch,0.3269
+couch,0.2993
+vase,0.2932
