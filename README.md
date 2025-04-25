@@ -24,6 +24,26 @@ YOLOv8 represents the cutting edge in object detection technology, offering rema
 - **High confidence scoring**: Provides probability scores for all detections
 - **Pre-trained on diverse datasets**: Recognizes 80+ common object categories
 
+## 📥 Getting the YOLOv8 Model File
+
+To run this project, you need the YOLOv8x model file. Due to its large size (131 MB), it is not included in this repository. You can obtain it using one of these methods:
+
+### Option 1: Download from Google Drive
+
+1. Download the model file from: [YOLOv8x.pt on Google Drive](https://drive.google.com/drive/folders/1YaOofT9UeoGM1S52C6bPFBHXFqK4hXSA?usp=sharing)
+2. Place the downloaded file in the project root directory
+
+### Option 2: Download using the Ultralytics package
+
+```bash
+# Install the ultralytics package
+pip install ultralytics
+
+# Download the YOLOv8x model
+from ultralytics import YOLO
+YOLO("yolov8x.pt")  # This will download the model if it doesn't exist
+```
+
 ## 🚀 Implementation
 
 Our implementation offers:
@@ -84,13 +104,15 @@ Upload an image for object detection.
    pip install -r requirements.txt
    ```
 
-3. Run the application:
+3. Download the YOLOv8x model as described in the "Getting the YOLOv8 Model File" section
+
+4. Run the application:
 
    ```bash
    python app.py
    ```
 
-4. Open your browser at `http://localhost:5000`
+5. Open your browser at `http://localhost:5000`
 
 ## 📋 Requirements
 
