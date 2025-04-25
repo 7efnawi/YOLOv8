@@ -30,7 +30,7 @@ To run this project, you need the YOLOv8x model file. Due to its large size (131
 
 ### Option 1: Download from Google Drive
 
-1. Download the model file from: [YOLOv8x.pt on Google Drive](https://drive.google.com/drive/folders/1YaOofT9UeoGM1S52C6bPFBHXFqK4hXSA?usp=sharing)
+1. Download the model file from: [YOLOv8x.pt on Google Drive](https://drive.google.com/file/d/1X9iry83QaPsbkJN3wFi20vu0AO2cvish/view?usp=drive_link)
 2. Place the downloaded file in the project root directory
 
 ### Option 2: Download using the Ultralytics package
